@@ -1,0 +1,51 @@
+/* Responsive pour les mobiles */
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Ajustement pour les petits écrans */
+    }
+
+    header img {
+        width: 50%; /* Réduction de la taille de l'image */
+    }
+
+    header h1 {
+        font-size: 4vw; /* Texte plus petit pour les mobiles */
+        margin-top: -12vw;
+    }
+
+    header h2 {
+        font-size: 3vw; /* Texte sous-titre plus petit */
+    }
+
+    .title-category {
+        font-size: 3vw; /* Ajustement de la taille du texte */
+        padding-top: 8vw;
+    }
+
+    .contact {
+        width: 90%; /* Contact occupe toute la largeur */
+        font-size: 4vw; /* Texte plus grand pour mobile */
+        padding: 3vw;
+        border-radius: 2vw;
+    }
+
+    .icon-contact {
+        width: 5vw; /* Taille réduite de l'icône */
+        margin-right: 2vw;
+    }
+
+    .project {
+        width: 90%; /* Projets plus larges pour les mobiles */
+        margin: 3vw auto;
+        border-radius: 2vw;
+    }
+
+    .project-img {
+        width: 90%; /* Ajustement de l'image */
+        padding: 2vw;
+    }
+
+    .project-name {
+        font-size: 4vw; /* Police plus grande */
+    }
+}
