@@ -76,6 +76,7 @@ header h2 {
     align-items: center;
     margin: 1vw auto;
     transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 0.4vw 0 rgba(0, 0, 0, 0.5);
 }
 
 .icon-contact {
@@ -105,6 +106,7 @@ header h2 {
     border-radius: 1vw;
     border: 1px solid #44454760;
     transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 0.4vw 0 rgba(0, 0, 0, 0.5);
 }
 
 .project:hover {
